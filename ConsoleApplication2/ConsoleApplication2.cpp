@@ -51,7 +51,7 @@ int main() {
 	cin >> y;
 	cout << "Введите число z:";
 	cin >> z;
-	b=x-(x*x)/
+	b = x - (x * x) / (1 * 2 * 3) + (x * x * x * x * x) / (1 * 2 * 3 * 4 * 5);
 	cout << "zadanie 3";
 	int c;
 	cout << "Введите число:";
