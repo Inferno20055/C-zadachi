@@ -37,11 +37,11 @@ int main() {
 	cout << "ответ" << a + b << "\n";//сложение двух чисел
 	cout << "ответ" << a / b << "\n";//деление двух чисел
 	cout << "zadanie 1";
-	int l;//
+	int l;//инициализоровал переменную
 	const float p = 3.14;//
 	cout << "Введите длину окружности:";//введите число
 	cin >> l;//
-	cout << "S=" << (l * l) / (4 * p) << "\n";//
+	cout << "S=" << (l * l) / (4 * p) << "\n";//формула
 	cout << "zadanie 2";
 	int a1, b1;
 	float x,y,z;
@@ -53,12 +53,12 @@ int main() {
 	cin >> z;
 	b = x - (x * x) / (1 * 2 * 3) + (x * x * x * x * x) / (1 * 2 * 3 * 4 * 5);
 	cout << "zadanie 3";
-	int c;
-	cout << "Введите число:";
-	cin >> c;
-	double c2 = c * c;
-	double c4 = c2 * c2;
-	cout << "а4= " << c4 << endl;
+	int c;//инициализировал переменную
+	cout << "Введите число:";//
+	cin >> c;//
+	double c2 = c * c;//
+	double c4 = c2 * c2;//
+	cout << "а4= " << c4 << endl;//
 
 
 
