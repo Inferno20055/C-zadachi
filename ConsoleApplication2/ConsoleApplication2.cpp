@@ -36,17 +36,30 @@ int main() {
 	cout << "ответ" << a * b << "\n";//умножения двух чисел
 	cout << "ответ" << a + b << "\n";//сложение двух чисел
 	cout << "ответ" << a / b << "\n";//деление двух чисел
+	cout << "zadanie 1";
 	int l;//
 	const float p = 3.14;//
 	cout << "Введите длину окружности:";//введите число
 	cin >> l;//
 	cout << "S=" << (l * l) / (4 * p) << "\n";//
+	cout << "zadanie 2";
+	int a1, b1;
+	float x,y,z;
+	cout << "Введите число х:";
+	cin >> x;
+	cout << "Введите число у:";
+	cin >> y;
+	cout << "Введите число z:";
+	cin >> z;
+	b=x-(x*x)/
+	cout << "zadanie 3";
 	int c;
 	cout << "Введите число:";
 	cin >> c;
 	double c2 = c * c;
 	double c4 = c2 * c2;
 	cout << "а4= " << c4 << endl;
+
 
 
 
