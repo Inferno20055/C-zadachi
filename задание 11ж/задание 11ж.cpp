@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "Ru");
     float x, y, z;
-    float a, b;
+    int a, b;
     const float e = 2.71;
     cout << "Введите переменную х:";
     cin >> x;
