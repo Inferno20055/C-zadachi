@@ -14,7 +14,7 @@ int main()
     cin >> y;
     cout << "Введите переменную z:";
     cin >> z;
-    a =  (e /abs((y-sqrt(abs(x)))*x-(y/z+(x*x/4))));
+    a =  log(abs((y-sqrt(abs(x)))*x-(y/z+(x*x/4))));
     b = (x - (x * x) / (1 * 2 * 3)) + ((x * x * x * x * x) / (1 * 2 * 3 * 4 * 5));
     cout << "Ответ части а:"<< a<<"\n";
     cout << "Ответ части b:" << b;
