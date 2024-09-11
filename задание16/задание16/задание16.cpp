@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Ru");
-	cout << "zadanie 1";
+	cout << "zadanie 1\n";
 	int l;//инициализоровал переменную
 	const float p = 3.14;//число р
 	cout << "Введите длину окружности:";//сообщение для пользователя
