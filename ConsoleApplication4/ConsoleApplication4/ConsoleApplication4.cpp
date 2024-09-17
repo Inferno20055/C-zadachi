@@ -3,7 +3,9 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Ru");
-    int a,n,c;
+    /*
+    cout << "задание 1.";
+    int a, n, c;
     float b;
     cout << "Введите стоймость (рублей):";
     cin >> a;
@@ -14,7 +16,9 @@ int main()
     b = a + b;
     c = b * n;
     cout << "Стоймость всех пирожков:" << c;*/
-    /*int n;
+    /*
+    cout << "задание 2.";
+    int n;
     cout << "Введите количество секунд:";
     cin >> n;
     int h, m, s;
@@ -23,7 +27,9 @@ int main()
     s = n / 60;
     cout << h << ":" << (m < 10 ? "0" : "") << m << ":" << (s < 10 ? "0" : "") << s;
     */
-    /*int v, t, m, c;
+    /*
+    cout << "задание 3.";
+    int v, t, m, c;
     m = 109;
     cout << "Введите скорость (км/ч):";
     cin >> v;
@@ -33,7 +39,9 @@ int main()
     c = m - v;
     cout << "Остоновка байкера проеденных км за определённые часы:" << c;
    */
-    /*int n, m, k, f;
+    /*
+    cout << "задание 4.";
+    int n, m, k, f;
     cout << "Введите  размер шоколадки (вертикаль):";
     cin >> n;
     cout << "Введите размер шоколадки(горизонталь):";
@@ -47,7 +55,9 @@ int main()
     {
         cout << "нет";
     }*/
-    /*int x, y, n, m, c;
+    /*
+    cout << "задание 5.";
+    int x, y, n, m, c;
     cout << "Введите длину басейна:";
     cin >> n;
     cout << "Введите ширину басейна";
@@ -68,6 +78,21 @@ int main()
 
     }
     
-    return 0;
-
+    return 0;*/
+    cout << "задание 6.";
+    int h1, m1, s1;
+    int h2, m2, s2;
+    cout << "Введите моменты времени(часы,минуты,секунды):"<<endl;
+    cin >> h1 >> m1 >> s1;
+    cout << "Введите моменты времени(часы,минуты,секунды):"<<endl;
+    cin >> h2 >> m2 >> s2;
+    if (h2<h1||(h2==h1&&m2<m1)||(h2==h1&&m2==m1&&s2<s1))
+    {
+        cout << "Второй момент времени наступил раньше первого!" << endl;
+        return 1;
+    }
+    int totalsecond1 = h1 * 3600 + m1 * 60 + s1;
+    int totalsecond2 = h2 * 3600 + m2 * 60 + s2;
+    int totaldef = totalsecond2 - totalsecond1;
+    cout << "прошло:" << totaldef << "секунд" << endl;
 }
