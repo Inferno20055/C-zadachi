@@ -1,2 +1,3 @@
 ﻿  ConsoleApplication4.cpp
+C:\Users\колледж\source\repos\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(50,21): warning C4101: c: неиспользованная локальная переменная
   ConsoleApplication4.vcxproj -> C:\Users\колледж\source\repos\ConsoleApplication4\ConsoleApplication4\x64\Debug\ConsoleApplication4.exe
