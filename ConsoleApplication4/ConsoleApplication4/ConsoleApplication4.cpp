@@ -3,9 +3,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Ru");
-    /*
-    cout << "задание 1.\n";
-    int a, n, c;
+    int a,n,c;
     float b;
     cout << "Введите стоймость (рублей):";
     cin >> a;
@@ -15,7 +13,7 @@ int main()
     cin >> n;
     b = a + b;
     c = b * n;
-    cout << "Стоймость всех пирожков:" << c;*/
+    cout << "Стоймость всех пирожков:" << c;
     /*
     cout << "задание 2.\n";
     int n;
@@ -55,8 +53,6 @@ int main()
     {
         cout << "нет";
     }*/
-    /*
-    cout << "задание 5.\n";
     int x, y, n, m, c;
     cout << "Введите длину басейна:";
     cin >> n;
@@ -105,4 +101,5 @@ int main()
     int ostavhi = k % n;
     cout << "Каждая белка получит:" << nk << " орешков" <<"," << "орешков останется" << ostavhi ;
     return 0;
+    
 }
