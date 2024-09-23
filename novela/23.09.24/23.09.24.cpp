@@ -93,6 +93,21 @@ int main()
         cout << "Your mercy for the plot:" << i;
     }
     return 0;*/
-    int x0, y0, x, y;
-
+    double x0, y0, r1, r2, l, x, y;
+    cout << "Введите центр окружности:";
+    cin >> x0 >> y0;
+    cout << "Введите радиус кольца:";
+    cin >> r1 >> r2;
+    cout << "Введите кординаты точки:";
+    cin >> x >> y;
+    l = sqrt(pow(x - x0, 2) + pow(y - y0, 2));
+    if (l>=r1&&l<=r2)
+    {
+        cout << "Даная точка принадлежит кольцу:";
+    }
+    else
+    {
+        cout << "Данная точка не принадлежит кольцу:";
+    }
+    return 0;
 }
