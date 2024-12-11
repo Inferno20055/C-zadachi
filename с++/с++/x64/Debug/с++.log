@@ -1,0 +1,4 @@
+﻿  с++.cpp
+C:\Users\Aлексей\source\repos\с++\с++\с++.cpp(92,17): warning C4101: base: неиспользованная локальная переменная
+C:\Users\Aлексей\source\repos\с++\с++\с++.cpp(92,9): warning C4101: number: неиспользованная локальная переменная
+  с++.vcxproj -> C:\Users\Aлексей\source\repos\с++\x64\Debug\с++.exe
