@@ -32,9 +32,9 @@ void CountElement(int* array, int size, int* negativecount, int* poositivcount, 
 }
 //задание 3
 void collectArrays(int* A, int n, int* B, int m) {
-    // Создаем массив для хранения уникальных элементов
-    int capacity = n + m; // Максимальный размер объединенного массива
-    int* result = new int[capacity]; // Указатель на массив
+    
+    int capacity = n + m;
+    int* result = new int[capacity]; 
     int index = 0;
 
     // Собираем элементы обоих массивов
@@ -86,20 +86,20 @@ void collectArrays(int* A, int n, int* B, int m) {
         }
         if (!found) {
             cout << B[j] << " ";
-            result[index++] = B[j]; // Добавляем в результат
+            result[index++] = B[j]; 
         }
     }
     cout << endl;
 
-    // Элементы, которые не являются общими
+    
     cout << "Элементы, не являющиеся общими: ";
     for (int i = 0; i < index; i++) {
         cout << result[i] << " ";
     }
     cout << endl;
 
-    // Освобождаем память
-    delete[] result;
+    
+    
 }
 int main() {
     setlocale(LC_ALL, "Ru");
