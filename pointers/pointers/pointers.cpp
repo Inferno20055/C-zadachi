@@ -62,7 +62,7 @@ int main() {
 
     printArray(sourceArray, size, "Исходный массив: ");
     printArray(destArray, size, "Скопированный массив: ");*/
-    //zadanie 
+    //zadanie 2
     /*int myArray[] = {1, 2, 3, 4, 5};
    
 
