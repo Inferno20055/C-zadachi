@@ -1,105 +1,83 @@
-﻿#include <iostream>
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <iostream>
 using namespace std;
 int main()
 {
-    setlocale(LC_ALL, "Ru");
-    int a,n,c;
-    float b;
-    cout << "Введите стоймость (рублей):";
-    cin >> a;
-    cout << "Введите стоймость (копейки):";
-    cin >> b;
-    cout << "Введите количество пирожков:\n";
-    cin >> n;
-    b = a + b;
-    c = b * n;
-    cout << "Стоймость всех пирожков:" << c;
-    /*
-    cout << "задание 2.\n";
-    int n;
-    cout << "Введите количество секунд:";
-    cin >> n;
-    int h, m, s;
-    h = n / 3600;
-    m = (n % 3600) / 60;
-    s = n / 60;
-    cout << h << ":" << (m < 10 ? "0" : "") << m << ":" << (s < 10 ? "0" : "") << s;
-    */
-    /*
-    cout << "задание 3.\n";
-    int v, t, m, c;
-    m = 109;
-    cout << "Введите скорость (км/ч):";
-    cin >> v;
-    cout << "Введите время в (ч):";
-    cin >> t;
-    v = t * v;
-    c = m - v;
-    cout << "Остоновка байкера проеденных км за определённые часы:" << c;
-   */
-    /*
-    cout << "задание 4.\n";
-    int n, m, k, f;
-    cout << "Введите  размер шоколадки (вертикаль):";
-    cin >> n;
-    cout << "Введите размер шоколадки(горизонталь):";
-    cin >> m;
-    f = n * m;
-    if (f%2==0)
-    {
-        cout << "да";
-    }
-    else
-    {
-        cout << "нет";
-    }*/
-    int x, y, n, m, c;
-    cout << "Введите длину басейна:";
-    cin >> n;
-    cout << "Введите ширину басейна";
-    cin >> m;
-    cout << "Введите растояние до бортика n:";
-    cin >> x;
-    cout << "Введите растояние до бортика m:";
-    cin >> y;
-    int distant = n-x;
-    int shir = m - y;
-    if (distant<shir)
-    {
-        cout << distant<<"метров";
-    }
-    else
-    {
-        cout << shir<<"метров";
+    setlocale(LC_ALL,"Ru");
+    // Открываем исходный файл для чтения
+    FILE* inputFile = fopen("C:\\Temp\\fails\\file_1.txt", "r");
+    // Открываем новый файл для записи
+    FILE* outputFile = fopen("C:\\temp\\fails\\twofile_2.txt", "w");
 
-    }
-    
-    return 0;*/
-    /*cout << "задание 1.\n";
-    int h1, m1, s1;
-    int h2, m2, s2;
-    cout << "Введите моменты времени(часы,минуты,секунды):"<<endl;
-    cin >> h1 >> m1 >> s1;
-    cout << "Введите моменты времени(часы,минуты,секунды):"<<endl;
-    cin >> h2 >> m2 >> s2;
-    if (h2<h1||(h2==h1&&m2<m1)||(h2==h1&&m2==m1&&s2<s1))
-    {
-        cout << "Второй момент времени наступил раньше первого!" << endl;
+    // проверка на открытие файлов
+    if (inputFile == NULL) {
+        perror("Ошибка открытия файла file_1.txt");
         return 1;
     }
-    int totalsecond1 = h1 * 3600 + m1 * 60 + s1;
-    int totalsecond2 = h2 * 3600 + m2 * 60 + s2;
-    int totaldef = totalsecond2 - totalsecond1;
-    cout << "прошло:" << totaldef << "секунд" << endl;*/
-    cout << "задание 2.\n";
-    int n, k;
-    cout << "Введите количество белок:";
-    cin >> n;
-    cout << "Введите количество орешок:";
-    cin >> k;
-    int nk = k / n;
-    int ostavhi = k % n;
-    cout << "Каждая белка получит:" << nk << " орешков" <<"," << "орешков останется" << ostavhi ;
-    return 0;
+    if (outputFile == NULL) {
+        perror("Ошибка открытия файла twofile_2.txt");
+        fclose(inputFile);
+        return 1;
+    }//задание 1
+    //для работы одного лучше за коментить другой
+    /*char word[100];
+    while (fscanf(inputFile, "%99s", word) == 1) {
+       
+        
+        if (strlen(word) >= 7) {
+            // Записываем слово в новый файл
+            fprintf(outputFile, "%s ", word);
+        }
+
+    } cout << "Слова длиной не менее 7 символов были успешно записаны в новый файл." << endl;*/
+    //задание 2
+    /*char line[100];
+    while (fgets(line, sizeof(line), inputFile) != NULL) {
+        //записываем строку в новый фаил.
+        fputs(line, outputFile);
+     
+    }cout << "Строки былы успешно записаны в новый фаил." << endl;*/
+    //zadanie 3
+    /*char lines[100][250];
+    int lineCount = 0;
+
+    while (fgets(lines[lineCount], sizeof(lines[lineCount]), inputFile) && lineCount < 100) {
+       
+        lines[lineCount][strcspn(lines[lineCount], "\n")] = 0;
+        lineCount++;
+    }
+    for (int i = lineCount - 1; i >= 0; i--)
+    {
+        fprintf(outputFile, "%s\n", lines[i]);
+    }cout << "Строки успешно скопированый в обратном порядке.";*/
+    //zadacha 4
+    char line[100];
+    bool foundLineWithoutSpace = false;
+
     
+    while (fgets(line, sizeof(line), inputFile)) {
+        // Проверка, есть ли пробел в строке
+        if (strchr(line, ' ') == nullptr) {
+            foundLineWithoutSpace = true; 
+        }
+        fputs(line, outputFile);
+    }
+
+    // Если найдена строка без пробела, добавляем строку из черточек
+    if (foundLineWithoutSpace) {
+        fputs("------------\n", outputFile);
+    }
+    else {
+        // Если строк без пробела не найдено, добавляем строку в конце
+        fputs("------------\n", outputFile);
+    }
+    cout << "Строка из чёрточек успешно доюавлена."<<endl;
+    // Закрываем файлы
+    fclose(inputFile);
+    fclose(outputFile);
+
+   
+    
+    return 0;
 }
