@@ -2,7 +2,7 @@
 #ifdef INTEGER
 void FillArrayInt(int* arr, int size) {
     for (int i = 0; i < size; ++i) {
-        arr[i] = (i + 1) * 2; // Заполняем массив четными числами для примера
+        arr[i] = (i + 1) * 2; 
     }
 }
 
@@ -37,7 +37,7 @@ void SortArrayInt(int* arr, int size) {
     for (int i = 0; i < size - 1; ++i) {
         for (int j = 0; j < size - i - 1; ++j) {
             if (arr[j] > arr[j + 1]) {
-                // Меняем элементы местами
+                
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -53,11 +53,10 @@ void EditValueInt(int* arr, int size, int index, int newValue) {
 }
 #endif
 
-// Функции для работы с массивом действительных чисел
 #ifdef DOUBLE
 void FillArrayDouble(double* arr, int size) {
     for (int i = 0; i < size; ++i) {
-        arr[i] = static_cast<double>(i + 1) * 1.5; // Пример значений
+        arr[i] = static_cast<double>(i + 1) * 1.5; 
     }
 }
 
@@ -92,7 +91,6 @@ void SortArrayDouble(double* arr, int size) {
     for (int i = 0; i < size - 1; ++i) {
         for (int j = 0; j < size - i - 1; ++j) {
             if (arr[j] > arr[j + 1]) {
-                // Меняем элементы местами
                 double temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -108,11 +106,10 @@ void EditValueDouble(double* arr, int size, int index, double newValue) {
 }
 #endif
 
-// Функции для работы с массивом символов
 #ifdef CHAR
 void FillArrayChar(char* arr, int size) {
     for (int i = 0; i < size; ++i) {
-        arr[i] = 'A' + (i % 26); // Заполнение буквами
+        arr[i] = 'A' + (i % 26); 
     }
 }
 
@@ -147,7 +144,6 @@ void SortArrayChar(char* arr, int size) {
     for (int i = 0; i < size - 1; ++i) {
         for (int j = 0; j < size - i - 1; ++j) {
             if (arr[j] > arr[j + 1]) {
-                // Меняем элементы местами
                 char temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
