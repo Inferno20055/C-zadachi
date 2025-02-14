@@ -1,5 +1,5 @@
 #pragma once
-class pointer
+class Pointer
 {
 private:
     int x;
@@ -8,12 +8,14 @@ private:
 
 public:
     
-    pointer(int* newX = nullptr, int* newY = nullptr, int* newZ = nullptr) {
+    Pointer(int* newX = nullptr, int* newY = nullptr, int* newZ = nullptr) {
         x = (newX != nullptr) ? *newX : 0;
         y = (newY != nullptr) ? *newY : 0;
         z = (newZ != nullptr) ? *newZ : 0;
     }
-
+    ~Pointer() {
+         
+    }
     int set_x() const {
         return x;
     }
