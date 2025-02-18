@@ -1,0 +1,115 @@
+﻿  Abonent.cpp
+  Phone_book.cpp
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,36): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(21,20): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(45,9): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(45,33): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(51,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(52,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(54,21): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(54,35): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(67,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(68,17): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(82,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(95,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(109,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(109,37): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "Phone_book.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(110,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phone_book.cpp")
+  
+  tel.cpp
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(11,36): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(21,20): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(45,9): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(45,33): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(51,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(52,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(54,21): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(54,35): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(67,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(68,17): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(82,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(95,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(109,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(109,37): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(110,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "tel.cpp")
+  
+C:\Users\Колледж\source\repos\tel\tel\Abonent.h(6,11): error C2374: MAX_ABONENTS: переопределение; множественная инициализация
+  (компиляция исходного файла "tel.cpp")
+      C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(6,11):
+       см. объявление "MAX_ABONENTS"
+  
+C:\Users\Колледж\source\repos\tel\tel\tel.cpp(7,11): error C2374: MAX_ABONENTS: переопределение; множественная инициализация
+      C:\Users\Колледж\source\repos\tel\tel\Phone_book.h(6,11):
+       см. объявление "MAX_ABONENTS"
+  
+  Создание кода...
