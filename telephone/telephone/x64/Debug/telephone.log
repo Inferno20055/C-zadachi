@@ -1,0 +1,326 @@
+﻿  Abonent.cpp
+  Phonebook.cpp
+  Phone_book.cpp
+  telephone.cpp
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(42,21): error C2061: синтаксическая ошибка: идентификатор "FILE"
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(47,23): error C2061: синтаксическая ошибка: идентификатор "FILE"
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(14,29): error C3861: strlen: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(14,20): error C3078: размер массива должен быть указан в новых выражениях без инициализатора
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(15,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(16,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(17,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(18,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(19,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(34,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(35,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(36,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(37,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(38,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(43,17): error C2065: outFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(43,9): error C3861: fprintf: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(49,35): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(49,9): error C3861: fgets: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(50,14): error C3861: strcspn: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(53,29): error C3861: strlen: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(53,20): error C3078: размер массива должен быть указан в новых выражениях без инициализатора
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(54,9): error C3861: strcpy: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(56,45): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(56,9): error C3861: fgets: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(57,19): error C3861: strcspn: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(58,45): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(58,9): error C3861: fgets: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(59,19): error C3861: strcspn: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(60,49): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(60,9): error C3861: fgets: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(61,21): error C3861: strcspn: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(62,55): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(62,9): error C3861: fgets: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(63,24): error C3861: strcspn: идентификатор не найден
+  (компиляция исходного файла "Abonent.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(5,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(5,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(5,36): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(10,5): error C2590: PhoneBook: список инициализации базовых классов и членов может быть только в конструкторе
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(13,6): error C2523: Phone_book::~PhoneBook: несовпадение тегов деструктор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(15,20): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(21,22): error C2065: MAX_ABONENTS: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(22,13): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(27,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(28,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(29,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(30,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(31,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(32,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(33,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(34,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(35,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(36,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(37,9): error C2065: cin: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(39,9): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(39,33): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(45,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(45,17): error C3861: strcmp: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(46,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(48,21): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(48,35): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(51,17): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(55,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(61,24): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(61,17): error C3861: strcmp: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(62,17): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(66,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(72,13): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(76,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(77,13): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(83,9): error C2065: FILE: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(83,15): error C2065: outFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(83,25): error C3861: fopen: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(84,14): error C2065: outFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(85,13): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(89,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(89,37): error C2065: outFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(91,16): error C2065: outFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(91,9): error C3861: fclose: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(92,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(97,9): error C2065: FILE: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(97,15): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(97,24): error C3861: fopen: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(98,14): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(99,13): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(102,22): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(102,17): error C3861: feof: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(103,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(103,37): error C2061: синтаксическая ошибка: идентификатор "Abonent"
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(104,13): error C2065: abonents: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(104,47): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(106,16): error C2065: inFile: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(106,9): error C3861: fclose: идентификатор не найден
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Phonebook.h(108,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "Phonebook.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(15,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(16,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(17,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(18,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(19,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(34,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(35,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(36,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(37,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(38,9): error C2065: cout: необъявленный идентификатор
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\Abonent.h(54,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (компиляция исходного файла "telephone.cpp")
+  
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(11,5): error C2065: PhoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(11,15): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "phoneBook"
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(11,15): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(27,13): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(34,13): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(42,13): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(46,13): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(52,13): error C2065: phoneBook: необъявленный идентификатор
+C:\Users\Колледж\source\repos\telephone\telephone\telephone.cpp(59,13): error C2065: phoneBook: необъявленный идентификатор
+  Создание кода...
