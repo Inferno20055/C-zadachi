@@ -1,0 +1,35 @@
+﻿  Person.cpp
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(13,10): error C3646: birthDate: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(13,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(17,89): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(17,99): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(18,29): error C2065: birthDate: необъявленный идентификатор
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(18,19): error C2614: Person: недопустимая инициализация члена: "birthDate" не является базовым классом или членом
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(42,98): error C3861: Date: идентификатор не найден
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(46,41): error C2039: "birthDate": не является членом "Person".
+  (компиляция исходного файла "Person.cpp")
+      C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(5,7):
+       см. объявление "Person"
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(46,25): error C2614: Person: недопустимая инициализация члена: "birthDate" не является базовым классом или членом
+  (компиляция исходного файла "Person.cpp")
+  
+C:\Users\Aлексей\source\repos\String_and_humans\String_and_humans\Person.h(122,9): error C2065: birthDate: необъявленный идентификатор
+  (компиляция исходного файла "Person.cpp")
+  
+  String_and_humans.cpp
+  Создание кода...
